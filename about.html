@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"
+        integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="about-style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Shadows Into Light' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>ALi.H photo About</title>
+</head>
+
+<body>
+    <div id="loader" class="preloader">
+        <div class="preload-content">
+            <div id="sonar-load">
+                <img src="loading-logo.gif" alt="loading">
+                <p>Loading...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader").style.visibility = "visible";
+            }
+            else {
+                document.querySelector(
+                    "#loader").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
+
+    <div class="top" id="Home">
+        <nav class="navbar">
+            <div class="logo">
+            </div>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#landscape">landscape</a></li>
+                <li><a href="b&w.html">B&W</a></li>
+            </ul>
+        </nav>
+        <div class="top">
+            <div class="row">
+                <div class="col-3 photo"></div>
+            </div>
+            <div class="row">
+                <h2 class="col-3 name">Ali Haddadi</h2>
+                <div class="col-12 stop1"></div>
+            </div>
+            <div class="row part2">
+                <img src="canon-d700.png" alt="canon camera" class="col-4 camera">
+                <p>My first and only camera </p>
+                <p>Canon D700</p>
+                <img src="New folder (3)/Canon_EF-S-18-135mm-f3-5-5-6-IS_Side_580x580.png" alt="" class="col-4 lens1">
+                <p class="lens1-detail">Canon 18-135mm f3.5 - 5.6</p>
+                <img src="New folder (3)/Canon_EF-50mm-f1-8-STM_Side_580x580.png" alt="" class="col-3 lens2">
+                <p class="lens2-detail">Canon 50mm f1.8</p>
+
+                <div class="col-12 stop2"></div>
+            </div>
+            <div class="row">
+                <h2 class="col-7 part3-title">My professional Colleagues</h2>
+                <div class="col-7 part3"></div>
+                <div class="col-7 apps">
+                    <img src="New folder (3)/photoshop-logo.png" alt="">
+                    <img src="New folder (3)/lightroom-logo.png" alt="">
+                    <img src="New folder (3)/ACDSEE -logo.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    <div class="row">
+
+        <footer class="col-12">
+            <p>Copyright © 2020 ALi Haddadi. All rights reserved.</p>
+            <div class="icons">
+                <a href="https://www.instagram.com/a.l.i_.h/" class="fa fa-instagram"></a>
+                <a href="https://www.facebook.com" class="fa fa-facebook-official"></a>
+                <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                <a href="https://www.500px.com" class="fa fa-500px"></a>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+        integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.js"
+        integrity="sha512-UgS0SVyy/0fZ0i48Rr7gKpnP+Jio3oC7M4XaKP3BJUB/guN6Zr4BjU0Hsle0ey2HJvPLHE5YQCXTDrx27Lhe7A=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js"
+        integrity="sha512-judXDFLnOTJsUwd55lhbrX3uSoSQSOZR6vNrsll+4ViUFv+XOIr/xaIK96soMj6s5jVszd7I97a0H+WhgFwTEg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.js"
+        integrity="sha512-mq6TSOBEH8eoYFBvyDQOQf63xgTeAk7ps+MHGLWZ6Byz0BqQzrP+3GIgYL+KvLaWgpL8XgDVbIRYQeLa3Vqu6A=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"
+        integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineMax.min.js"
+        integrity="sha512-MBKN+F1LTtgzsnhh92u6fEklbJbv13vKI/2BZP0LLR8+IMeqlp0h10R6afWaJv2HIJfTOQkjW0LCPrIFEkZVeg=="
+        crossorigin="anonymous"></script>
+    <script src="about.js"></script>
+</body>
+
+</html>
